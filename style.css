@@ -1,0 +1,346 @@
+*{
+  background-color: #1F1E1B;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Young+Serif&display=swap');
+
+
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+.menu {
+  display: flex;
+  list-style: none;
+}
+.container {
+  width: 1440px;
+}
+.header-area {
+  display: flex;
+  justify-content: center;
+}
+.menu li {
+  margin: 15px 40px;
+}
+.menu li a {
+  padding: 0px 0px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #F0E3CA;
+}
+
+#about {
+  color: #FF8303;
+}
+
+
+.slider-wrapper h2 {
+color: #FF8303;
+font-family: Inconsolata;
+font-size: 64px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+
+.slider-wrapper  h1 {
+color: #F0E3CA;
+font-family: Inconsolata;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.slider-wrapper  p{
+color: #F0E3CA;
+font-family: Inconsolata;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
+
+.slider-wrapper {
+display: flex;
+justify-content: space-between;
+width: 1440px;
+height: 720px;
+align-items: center;
+position: relative;
+}
+.slider-area {
+display: flex;
+justify-content: center;
+}
+
+
+.covermessage-wrapper {
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 76.4px 0px;
+}
+
+.cover-message {
+display: flex;
+justify-content: space-around;
+
+}
+
+
+.covermessage-wrapper p {
+width: 75%;
+margin: 32px 44px;
+padding: 8px 15px;
+color: #F0E3CA;
+font-family: Inconsolata;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.single-skill-area {
+  display: flex;
+  justify-content: space-around;
+}
+.skill-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+ 
+}
+
+
+.skill-area-heading {
+  display: flex;
+  justify-content: center;
+  color: #FF8303;
+  text-align: center;
+  font-family: Inconsolata;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.single-skill p {
+  color: #FFF;
+  font-family: Arial;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.shapeone {
+  display: flex;
+  position: absolute;
+}
+.shapeup {
+  margin: -418px 128px;
+  position: absolute;
+  rotate: 329deg;
+  
+ 
+}
+
+.shapedown {
+  position: absolute;
+  padding: 0 0;
+  margin: -454px 135px;
+}
+
+
+.single-skill {
+  color: red;
+  background-color: #282826;
+  border-radius: 12px;
+  position: relative;
+  text-align: center;
+  width: 200px;
+  height: 300px;
+  padding: 6px 22px;
+  display: block;
+}
+.single-skill svg,p {
+  margin: 24px 0;
+  background-color: #2B2821;
+  padding: 0 0px;
+}
+
+
+.shapeup img:nth-child(2) {
+  left: 0;
+  top: 39px;
+  position: absolute;
+  opacity: 0.8;
+  background-color: transparent;
+}
+.shapeup img:nth-child(1) {
+  background-color: #b0515100;
+  rotate: 219deg;
+}
+.shapeup {
+  background-color: transparent;
+}
+.works {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0px;
+}
+.worksheadding {
+  text-align: center;
+  color: #FF8303;
+text-align: center;
+font-family: Inconsolata;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.workarea {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+.worksingle {
+  margin: 0px 12px;
+}
+
+
+.see-more-button {
+  padding: 12px 20px;
+  color: #F0E3CA;
+  font-family: Inconsolata;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background-color: #32312E;
+  border-radius: 4px;
+  border-color: transparent;
+}
+.worksinglehover {
+  position: absolute;
+  text-align: center;
+  width: 320px;
+  margin-top: -324px;
+  background: #21201DFA .98%;
+  width: 320px;
+  height: 320px;
+}
+
+.worksinglehover h1 {
+  color: #FF8303;
+  font-family: Inconsolata;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.worksinglehover h2 {
+  color: #F0E3CA;
+  font-family: Inconsolata;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-bottom: 1px solid #A35709;
+  padding-bottom: 25px;
+  margin: 0 38px;
+}
+.worksinglehover p {
+  color: #F0E3CA;
+  font-family: Inconsolata;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0px 0;
+  margin: 14.5px 68px;
+  text-align: start;
+  background: transparent;
+}
+
+
+.worksheadding {
+  color: #FF8303;
+  text-align: center;
+  font-family: Inconsolata;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.worksingleback img {
+  width: 320px;
+}
+
+.footer {
+  justify-content: space-around;
+  display: flex;
+}
+.logo {
+  width: 21%;
+  padding: 33px 11px;
+}
+.contact {
+  width: 12%;
+}
+.footer-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.logo p {
+  color: #F0E3CA;
+  font-family: Inconsolata;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: transparent;
+  width: 213px;
+  margin: 25px 0px;
+}
+
+.contact h2 {
+  color: #FF8303;
+  font-family: Inconsolata;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.contactone {
+  display: flex;
+}
+.contactone a {
+  text-decoration: none;
+  margin: -20px 19px;
+  color: #FF8303;
+  font-family: Inconsolata;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.contactone p {
+  background: transparent;
+}
